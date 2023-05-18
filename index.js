@@ -122,7 +122,7 @@ const entryDot=document.querySelector('#entry-dot').addEventListener('click', ()
 })
 const entrySlash=document.querySelector('#entry-slash').addEventListener('click', () =>{
   OperatorEntry = 'div'
-  resultSpan.textContent = '/'
+  
   if (!isNaN(operationResult)) {
     
     firstEntry = operationResult + ""
@@ -130,7 +130,7 @@ const entrySlash=document.querySelector('#entry-slash').addEventListener('click'
 })
 const entryX=document.querySelector('#entry-x').addEventListener('click', () => {
   OperatorEntry = 'mult'
-  resultSpan.textContent = '*'
+  
   if (!isNaN(operationResult)) {
     
     firstEntry = operationResult + ""
@@ -139,7 +139,7 @@ const entryX=document.querySelector('#entry-x').addEventListener('click', () => 
 const entrySum=document.querySelector('#entry-sum').
 addEventListener('click', () =>{
   OperatorEntry = 'sum'
-  resultSpan.textContent = '+' 
+  
   if (!isNaN(operationResult)) {
     
     firstEntry = operationResult + ""
@@ -148,7 +148,7 @@ addEventListener('click', () =>{
 const entryRest=document.querySelector('#entry-rest').
 addEventListener('click', () =>{
   OperatorEntry = 'rest'
-  resultSpan.textContent = '-'
+ 
   if (!isNaN(operationResult)) {
     
     firstEntry = operationResult + ""
